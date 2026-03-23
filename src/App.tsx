@@ -265,13 +265,15 @@ const Contact = () => (
         <p className="text-[#b7c8de] text-lg mb-12 max-w-md font-body font-light leading-relaxed">
           Inicie uma conversa confidencial com nossos especialistas para entender como podemos proteger e potencializar seu legado.
         </p>
-        <button 
-          onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
+        <a 
+          href="https://wa.me/5535988617042?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20de%20voc%C3%AAs"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-4 bg-[#775a19] text-white px-10 py-5 rounded-sm font-bold text-sm uppercase tracking-widest hover:bg-[#5d4201] transition-all shadow-lg group font-label"
         >
           <MessageCircle size={20} />
           Falar com um Especialista
-        </button>
+        </a>
       </div>
       
       <div className="bg-white p-10 md:p-14 rounded-sm shadow-2xl">
